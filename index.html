@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Semáforo Inteligente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="entrada-nome">
+    <h2>Digite seu nome:</h2>
+    <input type="text" id="nomeUsuario" placeholder="Seu nome aqui">
+    <button id="btnEntrar">Entrar</button>
+  </div>
+
+  <div id="semaforo-container" style="display:none;">
+    <h1>🚦 SEMÁFORO INTELIGENTE</h1>
+    <h3 id="boasVindas"></h3>
+
+    <div id="semaforo">
+      <div class="luz vermelha"></div>
+      <div class="luz amarela"></div>
+      <div class="luz verde"></div>
+    </div>
+
+    <button id="btnPedestre">🚶 Pedir para Atravessar</button>
+
+    <p>⏳ Contagem: <span id="contador">-</span></p>
+    <p>📣 Status: <span id="status">Aguardando...</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
