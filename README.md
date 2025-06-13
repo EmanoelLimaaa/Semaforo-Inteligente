@@ -1,7 +1,7 @@
 Semáforo Inteligente
 Projeto desenvolvido como prática de manipulação do DOM com JavaScript, simulando o funcionamento de um semáforo com troca automática de luzes.
 
-🔗 Acesse aqui: 
+🔗 Acesse aqui: https://emanoellimaaa.github.io/Semaforo-Inteligente/ 
 
 🛠 Tecnologias Utilizadas
 HTML5
